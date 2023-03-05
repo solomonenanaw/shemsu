@@ -1,0 +1,40 @@
+/* Set a fixed height for the product card images */
+.card-img-top {
+	height: 200px;
+	object-fit: cover;
+}
+
+/* Style the "View Product" buttons */
+.btn-primary {
+	background-color: #007bff;
+	border-color: #007bff;
+}
+
+.btn-primary:hover {
+	background-color: #0069d9;
+	border-color: #0062cc;
+}
+
+/* Center the "Filters" header and list items */
+.list-group-item {
+	text-align: center;
+}
+
+/* Set a fixed width for the "Filters" sidebar */
+.col-md-3 {
+	width: 25%;
+}
+
+/* Add a background color to the active navigation item */
+.navbar .nav-item.active {
+	background-color: #007bff;
+}
+
+.navbar .nav-item.active a {
+	color: #fff;
+}
+
+/* Add padding to the bottom of the page */
+footer {
+	padding: 50px 0;
+}
